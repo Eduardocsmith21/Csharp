@@ -12,7 +12,7 @@ namespace IMC
         {
             Console.WriteLine("Informe o peso em kg: ");
             double peso = double.Parse(Console.ReadLine());
-            Console.WriteLine("Informe a altura em metros:  ");
+            Console.WriteLine("Informe a altura em metros: ");
             double altura = double.Parse(Console.ReadLine());
 
             double IMC = peso / (altura * altura);
